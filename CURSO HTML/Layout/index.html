@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--"title" dentro del "head" contiene el titulo mostrado en la pestaña del explorador-->
+    <title>Clase8FM</title>
+
+    <!--la etiqueta "link" dentro del encabezado "head" contienen el icono visible en la pestaña del explorador-->
+    <link rel="shortcut icon" type="image/x-icon" href="imagenes/Rei.jpg">
+
+
+    <!--Los metadatos se identifican por etiquetas  "meta" contienen informacion para el buscador, la etiqueta "meta description" es importante para posicionarse en el buscador-->
+    <meta name="description" content="Lorem ipsum">
+
+    <!--"meta charset" contiene la version de lenguaje de HTML utilizado, para HTML5, es "UTF-8"-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Dentro del head se colocan los estilos CSS que dan forma al HTML -->
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+
+    <!--"script" puede contener codigo javascript, no tiene que estar necesariamente dentro del header pero se suele hacer par mejorar el orden del sitio HTML, si se usa con el atributo "src" se utiliza para importar archivos extension"js"-->
+    <script></script>
+    
+    
+</head>
+<body>
+    
+    <!--Encabezado del sitio web, usualmente una imagen o contiene un logotipo-->
+    <header>
+        
+        <!--Las "DIV" se utilizan generalmente para contener imagenes-->
+        <div>
+
+            <img src="imagenes/Rei.jpg" alt="Logotipo" width="70">
+        </div>
+
+        <!--Inmediatamente luego del header es bueno poner el menu de navegacion, "NAV" el menu de navegacion PUEDE O NO estar contenido en el HEADER-->
+        <nav>
+
+            <!--Los menus de navegacion suelen estar compuestos por una lista, usualmente no numerada o "ul"-->
+            <ul>
+
+                <!--Los elementos de listas se denominan "li"-->
+                <li > <a href="#">1ra categoria</a></li>
+                <li><a href="#">2da categoria</a></li>
+                <li><a href="#">3ra categoria</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!--El "CONTENIDO" o la información real del sitio web se suele colocar dentro de una sección de etiqueta "section" esa section se divide en otras "section" internas, diferenciadas por sus clases-->
+
+    <!--La clase "wrapper" se usa para denotar que una seccion contiene secciones más pequeñas dentro de si -->
+    <section class="wrapper">
+
+        <!--La clase "main" señala que corresponde a el segmento principal del sitio web que contendrá los articulos -->
+        <section class="Main">
+            
+            <!--La etiqueta "article" denota que contiene la información principal y le da prioridad en la busqueda de google-->
+            <article>
+
+                <!--Encabezado de articulo-->
+                <h2>Titulo de la pagina</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem perspiciatis expedita odio blanditiis corrupti pariatur, nulla ipsam aspernatur sed minima aliquid mollitia magnam laudantium doloremque molestiae nam. Reprehenderit, sapiente error?</p>   
+            </article>
+
+            <!--La etiqueta "article" denota que contiene la información principal y le da prioridad en la busqueda de google-->
+            <article>
+
+                <!--Encabezado de articulo-->
+                <h2>Titulo de la pagina</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore totam provident ab aspernatur eum doloribus debitis molestiae iste eveniet dolor, excepturi nemo dolorem, sint veniam aliquid hic quod iusto! Dolore?</p>
+            </article>
+        </section>
+        
+        <!--la etiqueta "aside" denota que contiene elementos secundarios de contenido en nuestro sitio web se suelen colocar en una barra lateral-->
+        <aside>
+
+            <h3>Sidebar</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ipsum perspiciatis harum ex, fugiat repellendus temporibus reprehenderit, nesciunt nihil illo aliquid adipisci repellat, maxime vitae? Nisi facilis totam at neque?</p>
+        </aside>
+
+
+
+    </section>
+
+    <!--El footer contiene el pie de pagina del sitio web, inmediatamente afuera del "wrapper" pero dentro del body-->
+    <footer> 
+        <p>Elaborado por Eduardo Castillo, todos los derechos reservados.</p>
+    </footer>
+
+
+</body>
+</html>

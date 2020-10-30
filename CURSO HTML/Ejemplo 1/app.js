@@ -1,0 +1,1 @@
+alert('Bienvenida al curso de Javascript')

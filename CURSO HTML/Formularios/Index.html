@@ -1,0 +1,93 @@
+
+<!--Aqui empieza el formulario-->
+<form action="" method="">
+
+    <label for="Nombre">Ingrese su nombre</label>
+    <input 
+    type="text" 
+    name="name" 
+    id="Nombre"
+    placeholder="Escriba su nombre">
+
+
+    <br>
+
+    <!--Primero la etiqueta "label" que va asociada al id-->
+    <label for="email-example"> Correo aqui</label>
+
+    <!--Input se refiere al metodo de inserción en la web, en este caso es email-->
+    <input 
+    type="email" 
+    name="email-example" 
+    id="email-example" 
+    placeholder="Correo aqui"
+    required>
+
+    <br>
+
+    <!--Primero la etiqueta para hacer focus, asociada al id del input-->
+    <label for="password-example">Password</label>
+    
+    <!--Este sera un imput del tipo contraseña-->
+    <input 
+    type="password"
+    name="password-example"
+    id="password-example"
+    placeholder="Clave aqui"
+    required>
+
+    <br>
+
+    <!-- "Select" da Menus despegable a partir de opciones determinadas-->
+    <select name="select-exaple">
+
+    <!--Se enumeran todas las opciones del menu-->
+    <option value="value1"> Primera opcion</option>
+    <option value="value2"> Segunda opcion</option>
+    <option value="value3"> Tercera opcion</option>
+
+    </select>
+
+    <br>
+
+    <!-- Las casillas de seleccion unica, como eleccion de sexo son directamente etiquetas tipo "label" denominadas "RADIO"-->
+    <label>
+
+    <!--El input se denomina tipo RADIO, el NAME es QUE se pregunta, como el genero y el VALUE seria la alternativa presentada-->
+    <!--Cuando se determinan 3 inputs diferente dentro de una label se designa que se debe elegir uno de ellos-->
+ 
+    <input type="radio" name="gender" value="female">Mujer
+    <input type="radio" name="gender" value="male"> Hombre
+    <input type="radio" name="gender" value="no-gender"> Prefiero no especificar
+
+    </label>
+
+    <br>
+
+    <!--La casilla de "aceptar terminos y condiciones" es una LABEL  tipo "checkbox"-->
+    <label>
+
+    <!--El INPUT del tipo CHECKBOX ofrece casillas-->
+    <input type="checkbox" name="condition" value="accept-conditions" checked> Acepto los terminos y condiciones
+
+    </label>
+
+    <br>
+
+    <!--"COLOR" permite elegir entre colores-->
+    <input type="color">    
+
+    <br>
+
+    <!--"RANGE" permite colocar una barra deslizable-->
+    A favor <input type="range"> En contra
+
+    <br>
+
+    <!--Button inserta BOTONES clickeables que envian formularios-->
+    <button type="submit">Enviar</button>
+
+    <br>
+
+</form>
+
